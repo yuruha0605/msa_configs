@@ -1,6 +1,6 @@
 spring:
   kafka:
-    kafka-server: localhost:9092
+    kafka-server: kafka-service:9092
 
 # Feign + CurcuitBreaker 활성화
 feign:
